@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <h1>Guess A Number</h1>
+            <h4 class="info">number between 1 and 10</h4>
+            <input type="text" id="guessinput" class="guessinput">
+            <button id="submitbtn" class="submitbtn">submit</button>
+            <div class="result">
+                <h3></h3>
+            </div>
+            <div class="tries">
+                tries remaining: <span id="tries"></span>
+            </div>
+            <div class="reset">
+                <button id="resetbtn" class="resetbtn">
+                    Play again
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
